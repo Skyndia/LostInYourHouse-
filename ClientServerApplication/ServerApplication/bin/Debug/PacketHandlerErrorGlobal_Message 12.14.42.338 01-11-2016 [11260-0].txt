@@ -1,0 +1,14 @@
+Base Exception Type: System.IndexOutOfRangeException: L'index se trouve en dehors des limites du tableau.
+   à ServerApplication.PileOfNodes.Add(Node node) dans C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\PileOfNodes.cs:ligne 41
+   à ServerApplication.Node.BuildABNode(Blueprint plan, PileOfNodes& pile) dans C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\Node.cs:ligne 87
+   à ServerApplication.Graph.Build(Blueprint plan) dans C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\Graph.cs:ligne 55
+   à ServerApplication.Program.PrintIncomingMessage(PacketHeader header, Connection connection, String message) dans C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\Program.cs:ligne 50
+   à NetworkCommsDotNet.Tools.PacketTypeHandlerDelegateWrapper`1.Process(PacketHeader packetHeader, Connection connection, Object obj)
+   à NetworkCommsDotNet.NetworkComms.TriggerGlobalPacketHandlers(PacketHeader packetHeader, Connection connection, Object returnObject, Boolean ignoreUnknownPacketTypeOverride)
+
+Stack Trace:    à ServerApplication.PileOfNodes.Add(Node node) dans C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\PileOfNodes.cs:ligne 41
+   à ServerApplication.Node.BuildABNode(Blueprint plan, PileOfNodes& pile) dans C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\Node.cs:ligne 87
+   à ServerApplication.Graph.Build(Blueprint plan) dans C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\Graph.cs:ligne 55
+   à ServerApplication.Program.PrintIncomingMessage(PacketHeader header, Connection connection, String message) dans C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\Program.cs:ligne 50
+   à NetworkCommsDotNet.Tools.PacketTypeHandlerDelegateWrapper`1.Process(PacketHeader packetHeader, Connection connection, Object obj)
+   à NetworkCommsDotNet.NetworkComms.TriggerGlobalPacketHandlers(PacketHeader packetHeader, Connection connection, Object returnObject, Boolean ignoreUnknownPacketTypeOverride)

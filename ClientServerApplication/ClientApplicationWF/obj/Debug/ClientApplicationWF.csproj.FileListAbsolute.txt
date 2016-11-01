@@ -1,0 +1,15 @@
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ClientApplicationWF\obj\Debug\ClientApplicationWF.csprojResolveAssemblyReference.cache
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ClientApplicationWF\obj\Debug\ClientApplicationWF.Form1.resources
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ClientApplicationWF\obj\Debug\ClientApplicationWF.Properties.Resources.resources
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ClientApplicationWF\obj\Debug\ClientApplicationWF.csproj.GenerateResource.Cache
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ClientApplicationWF\bin\Debug\ClientApplicationWF.exe.config
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ClientApplicationWF\bin\Debug\ClientApplicationWF.exe
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ClientApplicationWF\bin\Debug\ClientApplicationWF.pdb
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ClientApplicationWF\obj\Debug\ClientApplicationWF.exe
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ClientApplicationWF\obj\Debug\ClientApplicationWF.pdb
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ClientApplicationWF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ClientApplicationWF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ClientApplicationWF\bin\Debug\ClientApplicationWF.exe.manifest
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ClientApplicationWF\bin\Debug\ClientApplicationWF.application
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ClientApplicationWF\obj\Debug\ClientApplicationWF.exe.manifest
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ClientApplicationWF\obj\Debug\ClientApplicationWF.application

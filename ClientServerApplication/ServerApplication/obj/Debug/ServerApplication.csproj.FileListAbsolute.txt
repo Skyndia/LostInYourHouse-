@@ -1,0 +1,14 @@
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\bin\Debug\ServerApplication.exe.config
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\bin\Debug\ServerApplication.exe
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\bin\Debug\ServerApplication.pdb
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\obj\Debug\ServerApplication.exe
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\obj\Debug\ServerApplication.pdb
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\bin\Debug\ClientApplicationWF.exe
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\bin\Debug\Newtonsoft.Json.dll
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\bin\Debug\ClientApplicationWF.pdb
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\bin\Debug\Newtonsoft.Json.xml
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\obj\Debug\ServerApplication.csprojResolveAssemblyReference.cache
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\bin\Debug\ServerApplication.exe.manifest
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\bin\Debug\ServerApplication.application
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\obj\Debug\ServerApplication.exe.manifest
+C:\Users\benjamin\Documents\Projets\Stage\ClientServerApplication\ServerApplication\obj\Debug\ServerApplication.application
