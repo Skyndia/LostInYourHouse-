@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ClientApplicationWF.exe" version="1.0.0.3" publicKeyToken="dc9929b407a201d4" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ClientApplicationWF" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ClientApplicationWF.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options du manifeste de contrôle de compte d'utilisateur
+          Si vous souhaitez modifier le niveau du contrôle de compte d'utilisateur Windows, remplacez le 
+          nœud requestedExecutionLevel par l'une des propositions suivantes :
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si vous souhaitez utiliser la virtualisation de fichiers et du Registre pour la 
+         compatibilité descendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClientApplicationWF.exe" size="32728">
+      <assemblyIdentity name="ClientApplicationWF" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>IuMcwPBdg/ap8BlQrTqsQGnmghlF1rznj2jQYWfqAak=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NetworkCommsDotNetComplete.dll" size="1994240">
+      <assemblyIdentity name="NetworkCommsDotNetComplete" version="3.0.0.0" publicKeyToken="F58108EB6480F6EC" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>te6ztIHqAMw+rfqtaDikWFD62DS4QsEyUwISlqvDr4g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="526336">
+      <assemblyIdentity name="Newtonsoft.Json" version="9.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>V14w+Y5OpCyeUW7ci7sprYtQsXOj5rNrW6OeEzzOlAY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ClientApplicationWF.exe.config" size="948">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>A7gB6eh4JUVxVvsABc6vdcJ1yLxWuOjOnR3hcljPL2A=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PC-BENJAMIN\benjamin" issuerKeyHash="a0818f494704f44c5a8c8b3f388942ed87541014" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ScnIY4vrt5KJzx45IGMOjPiYMaqPsuzKGIqo0Am7pQs=</DigestValue></Reference></SignedInfo><SignatureValue>mjM0P6Y48c/tIsQP8Dcl/YNwwv/8Lktjuqa8gb7EUJp7HNCE4F8NJVuo+Q6KgFAeD3Vcglm71YAkHRQWuun3HO82Lq9izgFuHLINefDphMbfTDXnFTETigLfAyIxgMb/lUhrTbrHhss0tF1R9BYMf1G2gKaq3+eiRaUjxOixUGU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>r2IMiT9tJbGgGoHJzy99GmFnrfFsHkbRvhhH1nlAm0IojlMMorneIpyicNgd0QdLR1uM+H3TuVmnvaARktiaLJ/GGlCZiaI7AtCF454rnS3AvXlZ8kE4CavYyR9/HsrSnEDhfQNYg+RggJL2ItHUgQnaZVHihK/NaVVF/NI1dsU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0ba5bb09d0a88a18caecb28faa3198f88c0e6320391ecf8992b7eb8b63c8c949" Description="" Url=""><as:assemblyIdentity name="ClientApplicationWF.exe" version="1.0.0.3" publicKeyToken="dc9929b407a201d4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PC-BENJAMIN\benjamin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>REtV7wZSdQ8KqnFhVy3a11MgLH1QH3EmIUTy5IPz/30=</DigestValue></Reference></SignedInfo><SignatureValue>OrbLxMqNBS6SWJTT6dVrCqiHFmPTpAq/FDNyj6Jfyqr0N/KHtve/PpZ8NoUp6h/PIWV0VRK5Ivbo71mXzQOZlYUI9CN4waPfX+O70WFzQfFHnaJdIdQ6RSkmgj1xNnLCxTNelcdfpBM61kwVheVAaSlSAA3l7M1ZdaJGR7IxZAQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>r2IMiT9tJbGgGoHJzy99GmFnrfFsHkbRvhhH1nlAm0IojlMMorneIpyicNgd0QdLR1uM+H3TuVmnvaARktiaLJ/GGlCZiaI7AtCF454rnS3AvXlZ8kE4CavYyR9/HsrSnEDhfQNYg+RggJL2ItHUgQnaZVHihK/NaVVF/NI1dsU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQS+OhA/eUAKtJUwOYZWG+ZzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAUABDAC0AQgBFAE4ASgBBAE0ASQBOAFwAYgBlAG4AagBhAG0AaQBuMB4XDTE2MTEwMTEzMTQyMFoXDTE3MTEwMTE5MTQyMFowMzExMC8GA1UEAx4oAFAAQwAtAEIARQBOAEoAQQBNAEkATgBcAGIAZQBuAGoAYQBtAGkAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAr2IMiT9tJbGgGoHJzy99GmFnrfFsHkbRvhhH1nlAm0IojlMMorneIpyicNgd0QdLR1uM+H3TuVmnvaARktiaLJ/GGlCZiaI7AtCF454rnS3AvXlZ8kE4CavYyR9/HsrSnEDhfQNYg+RggJL2ItHUgQnaZVHihK/NaVVF/NI1dsUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBSqA/TmHw0upmNey6ZlUPmshhP/uOH4D7RlY8usU7hz21hiNveh94gVXiHYC2b9RsMDacFuHTnuVqaHgn428Cr+oZ3HWvyZpKukx/e5UzVUd6eBXOyYAzeVjw0Wrp9kfgZqg6Zi8oJP1ES0t93vmJqL+0XGn3AUXzckP20t5Xd5g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
